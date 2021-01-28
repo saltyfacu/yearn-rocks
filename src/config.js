@@ -164,4 +164,17 @@ export default Object.freeze({
         VAULT_DEV : "arbingsam",
         BLOCK_ACTIVATED: 1606599919,
     },
+    '1inchgov' : {
+        TITLE: "1InchGov",
+        LOGO: "🗳️💰",
+        VAULT_ABI: yVaultV2,
+        VAULT_TYPE: 'yearn',
+        VAULT_ADDR: "0x9C94252273108a9E0C7E4Ca92c4a2B58853571Aa",
+        WANT_ADDR: "0x111111111117dC0aa78b770fA6A738034120C302",
+        WANT_SYMBOL: "1INCH",
+        COINGECKO_SYMBOL: "1inch",
+        VAULT_DEV : "akshaynexust",
+        BLOCK_ACTIVATED: 1606599919,
+        VAULT_STATUS: "active",
+    }
 })
