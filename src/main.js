@@ -9,6 +9,7 @@ import VueKonami from 'vue-konami'
 
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
+import vuetify from './plugins/vuetify';
 
 Vue.use(Buefy, {
   defaultUseHtml5Validation: false,
@@ -28,5 +29,6 @@ Vue.config.productionTip = false
 
 new Vue({
   store,
+  vuetify,
   render: h => h(App)
 }).$mount('#app')
